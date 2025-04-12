@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import PluginDemo from './components/PluginDemo.vue';
 </script>
 
 <template>
   <div>
-    hello,Vetur
+    <PluginDemo />
   </div>
 </template>
 
