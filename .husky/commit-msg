@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
+#!/user/bin/env sh
 npx commitlint --edit $1
