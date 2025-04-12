@@ -1,1 +1,3 @@
-兄弟现在是提交前，我被触发了
+#!/user/bin/env sh
+
+pnpm lint:es && pnpm lint:style && pnpm spellcheck
