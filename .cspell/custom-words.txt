@@ -1,5 +1,6 @@
 breakline
 byelide
+commitlint
 njsproj
 ntvs
 tsno
