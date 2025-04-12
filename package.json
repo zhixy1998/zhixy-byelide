@@ -11,7 +11,8 @@
     "lint:es": "eslint src/**/*.{ts,vue}",
     "lint:style": "stylelint src/**/*.vue",
     "spellcheck": "cspell lint --dot --gitignore --color --cache src/**/*.{ts,js,vue,md,json,yaml}",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "vitest"
   },
   "config": {
     "commitizen": {
