@@ -1,10 +1,20 @@
 <template>
   <div>
-    <button @click="chartType = 'line'">line</button>
-    <button @click="chartType = 'bar'">bar</button>
-    <button @click="chartType = 'pie'">pie</button>
+    <button @click="chartType = 'line'">
+      line
+    </button>
+    <button @click="chartType = 'bar'">
+      bar
+    </button>
+    <button @click="chartType = 'pie'">
+      pie
+    </button>
   </div>
-  <v-chart class="chart" :option="option" :autoresize="true" />
+  <v-chart
+    class="chart"
+    :option="option"
+    :autoresize="true"
+  />
 </template>
 
 <script setup lang="ts">

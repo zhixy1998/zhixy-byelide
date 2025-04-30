@@ -3,6 +3,7 @@ byelide
 commitlint
 Echart
 echarts
+esfix
 genter
 njsproj
 ntvs

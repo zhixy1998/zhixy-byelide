@@ -41,9 +41,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="container" class="zrenderContainer">
-
-  </div>
+  <div
+    ref="container"
+    class="zrenderContainer"
+  />
 </template>
 
 <style scoped>

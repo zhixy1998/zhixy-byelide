@@ -14,13 +14,19 @@ const charts = {
 </script>
 
 <template>
-    <div>
-        <button v-for="(item, index) in Object.keys(charts)" :key="`btn${index}`" @click="chartType = item"> {{ item
-            }}</button>
-    </div>
-    <KeepAlive>
-        <component :is="charts[chartType]" />
-    </KeepAlive>
+  <div>
+    <button
+      v-for="(item, index) in Object.keys(charts)"
+      :key="`btn${index}`"
+      @click="chartType = item"
+    >
+      {{ item
+      }}
+    </button>
+  </div>
+  <KeepAlive>
+    <component :is="charts[chartType]" />
+  </KeepAlive>
 </template>
 
 <style scoped></style>

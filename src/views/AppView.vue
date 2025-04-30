@@ -4,13 +4,12 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-    <div class="app-wrapper">
-        <header>
-        </header>
-        <main>
-            <RouterView />
-        </main>
-    </div>
+  <div class="app-wrapper">
+    <header />
+    <main>
+      <RouterView />
+    </main>
+  </div>
 </template>
 
 <style scoped>

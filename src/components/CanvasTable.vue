@@ -122,15 +122,19 @@ onUnmounted(() => {
 })
 </script>
 <template>
-    <div class="canvas">
-        <input @input="handleSearch" />
-        <canvas ref="canvas" width="800" height="600" />
-    </div>
+  <div class="canvas">
+    <input @input="handleSearch">
+    <canvas
+      ref="canvas"
+      width="800"
+      height="600"
+    />
+  </div>
 </template>
 
 <style scoped>
 .canvas {
-    width: 800;
-    height: 600;
+    width: 800px;
+    height: 600px;
 }
 </style>

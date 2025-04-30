@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import AppRightPanel from '@/components/AppRightPanel/AppRightPanel.vue';
-import MaterialRenderer from '@/components/MaterialRenderer.vue';
 import CanvasTable from '@/components/CanvasTable.vue';
+import MaterialRenderer from '@/components/MaterialRenderer.vue';
 </script>
 
 <template>
-    <div class="layout">
-        <!-- <PluginDemo /> -->
-        <!-- <AppRightPanel />
+  <div class="layout">
+    <!-- <PluginDemo /> -->
+    <!-- <AppRightPanel />
     <MaterialRenderer /> -->
-        <CanvasTable />
-    </div>
+    <CanvasTable />
+  </div>
 </template>
 
 <style scoped>

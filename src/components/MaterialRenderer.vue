@@ -35,8 +35,14 @@ const handleDrop = ($event: any) => {
 
 <template>
   <SmoothDndContainer @drop="handleDrop">
-    <SmoothDndDraggable v-for="block in blocksData" :key="block.id">
-      <component class="material" :is="blockMap[block.type].material"></component>
+    <SmoothDndDraggable
+      v-for="block in blocksData"
+      :key="block.id"
+    >
+      <component
+        :is="blockMap[block.type].material"
+        class="material"
+      />
     </SmoothDndDraggable>
   </SmoothDndContainer>
 </template>
