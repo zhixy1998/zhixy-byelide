@@ -16,6 +16,9 @@ export default ts.config(
   ...ts.configs.recommended,
   ...eslintPluginVue.configs["flat/recommended"],
   {
+    env: {
+      browser: true, // 启用浏览器全局变量（window, document 等）
+    },
     files: ["*.vue", "**/*.vue"],
     languageOptions: {
       parserOptions: {
@@ -26,6 +29,9 @@ export default ts.config(
     rules: {
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
+      "html-indent": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "vue/require-default-prop": "off",
     },
   }
 );

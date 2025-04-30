@@ -1,8 +1,12 @@
 breakline
 byelide
 commitlint
+Echart
+echarts
+genter
 njsproj
 ntvs
 tsno
 Vetur
 zhixy
+zrender
