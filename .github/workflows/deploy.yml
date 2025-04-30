@@ -3,7 +3,7 @@ name: encode-bundle docs deploy
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
