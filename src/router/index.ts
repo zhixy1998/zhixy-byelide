@@ -1,6 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import { defineAsyncComponent } from "vue";
-import AppView from "../views/AppView.vue";
+import AppView from "@/App.vue";
 const routes = [
   {
     path: "/",
@@ -10,7 +10,7 @@ const routes = [
     path: "/app",
     component: AppView,
     name: "home",
-    redirect:"/app/layout",
+    redirect: "/app/layout",
     children: [
       {
         path: "layout",
