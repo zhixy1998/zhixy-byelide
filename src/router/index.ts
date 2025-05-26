@@ -1,25 +1,25 @@
 import { createWebHistory, createRouter } from "vue-router";
 import { defineAsyncComponent } from "vue";
-import AppView from "@/App.vue";
+import PageLayoutView from "@/views/PageLayoutView.vue";
 const routes = [
   {
     path: "/",
-    redirect: "/app/layout",
+    redirect: "/app",
   },
   {
     path: "/app",
-    component: AppView,
+    component: PageLayoutView,
     name: "home",
-    redirect: "/app/layout",
-    children: [
-      {
-        path: "layout",
-        name: "layout",
-        component: defineAsyncComponent(
-          () => import("../views/PageLayoutView.vue")
-        ),
-      },
-    ],
+    // redirect: "/app/layout",
+    // children: [
+    //   {
+    //     path: "layout",
+    //     name: "layout",
+    //     component: defineAsyncComponent(
+    //       () => import("../views/PageLayoutView.vue")
+    //     ),
+    //   },
+    // ],
   },
   {
     path: "/runner",

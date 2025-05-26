@@ -30,11 +30,13 @@
     "vue": "3.4.31",
     "vue-echarts": "^7.0.3",
     "vue-router": "^4.5.0",
+    "yup": "^1.6.1",
     "zrender": "^5.6.1"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.8.0",
     "@eslint/js": "9.7.0",
+    "@types/css": "^0.0.38",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "commitlint": "^19.8.0",

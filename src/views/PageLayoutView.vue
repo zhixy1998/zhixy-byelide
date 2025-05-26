@@ -7,19 +7,21 @@ import MaterialRenderer from '@/components/MaterialRenderer.vue';
 <template>
   <div class="layout">
     <!-- <PluginDemo /> -->
-    <!-- <AppRightPanel />
-    <MaterialRenderer /> -->
-    <CanvasTable />
+    <AppRightPanel />
+    <!-- <MaterialRenderer /> -->
+    <!-- <CanvasTable /> -->
   </div>
 </template>
 
 <style scoped>
 .layout {
-    width: 93vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex
 }
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 </style>

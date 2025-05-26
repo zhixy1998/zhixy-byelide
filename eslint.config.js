@@ -40,6 +40,7 @@ export default ts.config(
       "@typescript-eslint/no-unused-vars": "off",
       "vue/require-default-prop": "off",
       "@typescript-eslint/no-explicit-any": "off",
+      "vue/html-self-closing": "off",
     },
   }
 );
